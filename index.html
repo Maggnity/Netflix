@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/main.css">
+    <!--owl css-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+    <!---->
     <title>NETFLIX CLONE</title>
 </head>
 <body>
@@ -21,19 +25,46 @@
     </header>
     <main>
         <div class="filme-principal">
-            <div>
-                <h3 class="titulo">Dr. House</h3>
-                <p class="descricao">Um médico dissidente e anti-social, que se especializou em medicina de diagnóstico. Faz o que for preciso para resolver casos intrigantes que estão no seu caminho, usando a sua equipe de médicos e sua inteligência.</p>
+            <div class="container">
+                <h3 class="titulo">Suits</h3>
+                <p class="descricao">Mesmo sem se formar e sem licença para advogar, um jovem brilhante impressiona um importante advogado e consegue uma cobiçada posição em sua firma.</p>
             </div>
-            <button 
-            role="button"
-            class="botao">
-                Assistir agora
-            </button>
-            <button 
-            role="button"
-            class="botao">Mais informações</button>
+            <div class="botoes">
+                <button 
+                    role="button"
+                    class="botao ">
+                    <i class="fas fa-play"></i>
+                    Assistir agora
+                </button>
+                <button 
+                    role="button"
+                    class="botao">
+                    <i class="fas fa-info-circle"></i>
+                    Mais informações
+                </button>
+            </div>
         </div>
     </main>
+
+
+    <div class="carossel-filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item"><h4><img src="img/mini1.jpg" alt=""></h4></div>
+            <div class="item"><h4><img src="img/mini2.jpg" alt=""></h4></div>
+            <div class="item"><h4><img src="img/mini3.jpg" alt=""></h4></div>
+            <div class="item"><h4><img src="img/mini4.jpg" alt=""></h4></div>
+            <div class="item"><h4><img src="img/mini5.jpg" alt=""></h4></div>
+            <div class="item"><h4><img src="img/mini6.jpg" alt=""></h4></div>
+            <div class="item"><h4><img src="img/mini7.jpg" alt=""></h4></div>
+            <div class="item"><h4><img src="img/mini8.jpg" alt=""></h4></div>
+            
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/795f7114a3.js" crossorigin="anonymous"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
+
 </body>
 </html>
