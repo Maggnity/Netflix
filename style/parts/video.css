@@ -1,6 +1,5 @@
 .bg-video {
-    width: 100%;
-    position: relative;
+    position: flex;
     top: 0;
     left: 0;
     z-index: -1;
@@ -8,25 +7,24 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+}
 
+
+
+.video-inicio {
+    position: relative;
+    width: 100%;
+    height: auto;
 }
 
 .video {
-    width: 100%;
     position: relative;
-    margin-top: -80px;
-    height: 60%;
+    height: auto;
+    animation-play-state: paused;
+    width: 100%;
 }
 
-/*Botôes do vídeo*/
-.botao:hover{
-    background-color: white;
-    color: black;
-}
 
-.botao i{
-    margin-right: 20px;
-}
 
 /*Título e descrição do vídeo*/
 .container{
@@ -42,20 +40,6 @@
     
 }
 
-.botao{
-    background-color: rgba(0,0,0,.50);
-    border: none;
-    color: white;
-    padding: 15px 30px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-transform: uppercase;
-    position: relative;
-    margin-left: 15px;
-    
-    
-    cursor: pointer;
-    transition: 0.3s ease all;
-}
 
 .filme-principal .descricao{
     margin-bottom: 50px;
@@ -67,11 +51,39 @@
     font-size: 20px;
     margin-top: 30%;
     margin-left: -15%;
-    position:relative;
+    position: relative;
     
 }
 
 .filme-principal p {
     margin-left: -15%;
     width: 150%;
+}
+
+@media screen and (max-width:700px) {
+    .video-inicio {
+        position: relative;
+        width: 100%;
+    }
+    .botoes {
+        display: flex;
+        margin: auto;
+        width: 100%; 
+    }
+
+    .filme-principal .descricao{
+        margin-bottom: 20px;
+        width: 70%;
+        font-size: 10px;
+        
+    }
+    
+    .filme-principal .titulo{
+        font-size: 10px;
+        margin-top: 30%;
+        margin-left: -15%;
+        position: relative;
+        display: inline-block;
+        
+    }
 }

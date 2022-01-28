@@ -1,0 +1,12 @@
+
+.fotos {
+    position: absolute;
+    background-size: cover;
+    height:20%;
+    background-position: 100px 100px;
+    
+}
+
+.carrosel-fotos {
+    height: 400px;
+}

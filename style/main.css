@@ -48,9 +48,8 @@ header nav a:hover {
 /*Filme principal*/
 .filme-principal {
     font-size: 16px;
-    
+    position:relative;
     height: 100%;
-    background-size: cover;
     
     display: block;
     flex-direction: column;
@@ -60,31 +59,12 @@ header nav a:hover {
 }
 
 
-
-
-
-
-
-
-
-
-.box-filme{
-    height: 100%;
-    width: 100%;
-    display: block;
-}
-
-
-.capa:hover {
-    width: 200;
-    padding: 20;
-}
-
 .item:hover {
-    margin: -5px;
+    margin: 0;
     position: relative;
     display: inline-block;
-    transition: 10.5 ease;    
+    opacity: 0.6;
+    transition: 1000 ease all;    
 }
 
 .play {
