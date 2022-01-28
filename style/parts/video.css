@@ -1,0 +1,77 @@
+.bg-video {
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+
+}
+
+.video {
+    width: 100%;
+    position: relative;
+    margin-top: -80px;
+    height: 60%;
+}
+
+/*Botôes do vídeo*/
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+
+.botao i{
+    margin-right: 20px;
+}
+
+/*Título e descrição do vídeo*/
+.container{
+    margin-top: 1%;
+    display: block;
+}
+.filme-principal {
+    position: absolute;
+    height: 100%;
+}
+.filme-principal .container{
+    width: 70%;
+    
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    position: relative;
+    margin-left: 15px;
+    
+    
+    cursor: pointer;
+    transition: 0.3s ease all;
+}
+
+.filme-principal .descricao{
+    margin-bottom: 50px;
+    width: 70%;
+    position: relative;
+}
+
+.filme-principal .titulo{
+    font-size: 20px;
+    margin-top: 30%;
+    margin-left: -15%;
+    position:relative;
+    
+}
+
+.filme-principal p {
+    margin-left: -15%;
+    width: 150%;
+}

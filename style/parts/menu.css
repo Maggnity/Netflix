@@ -1,0 +1,25 @@
+
+.bg-black {
+    background-color: var(--preto);
+}
+
+.btn-black {
+    color: gray;
+    background-color: var(--preto);
+}
+
+.dropdown-cor a{
+    color: black;
+    padding-top: 10px;
+}
+
+.menu-figura {
+    height: 30px;
+}
+
+@media screen and (max-width:700px) {
+    header .container{
+        display: flex;
+        flex-direction: row;
+    }    
+}
